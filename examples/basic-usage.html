@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Infinite Feed Gallery - Basic Example</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/framer-motion@10/dist/framer-motion.js"></script>
+    <script src="https://unpkg.com/react-infinite-feed-gallery@1.0.0/dist/index.esm.js"></script>
+    <link href="https://unpkg.com/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="module">
+        const { FeedScroll } = window.ReactInfiniteFeedGallery;
+
+        // Sample image data
+        const sampleImages = [
+            {
+                url: 'https://picsum.photos/400/300?random=1',
+                alt: 'Beautiful landscape 1',
+                likes: 1234,
+                views: 5678,
+                shares: 90
+            },
+            {
+                url: 'https://picsum.photos/400/500?random=2',
+                alt: 'Mountain view',
+                likes: 856,
+                views: 2345,
+                shares: 45
+            },
+            {
+                url: 'https://picsum.photos/400/400?random=3',
+                alt: 'Ocean waves',
+                likes: 2100,
+                views: 8900,
+                shares: 156
+            },
+            {
+                url: 'https://picsum.photos/400/350?random=4',
+                alt: 'Forest path',
+                likes: 567,
+                views: 1234,
+                shares: 23
+            },
+            {
+                url: 'https://picsum.photos/400/600?random=5',
+                alt: 'City skyline',
+                likes: 1890,
+                views: 4567,
+                shares: 89
+            },
+            {
+                url: 'https://picsum.photos/400/450?random=6',
+                alt: 'Sunset colors',
+                likes: 3456,
+                views: 12345,
+                shares: 234
+            },
+            {
+                url: 'https://picsum.photos/400/380?random=7',
+                alt: 'Desert dunes',
+                likes: 789,
+                views: 2345,
+                shares: 67
+            },
+            {
+                url: 'https://picsum.photos/400/520?random=8',
+                alt: 'Waterfall',
+                likes: 1567,
+                views: 6789,
+                shares: 123
+            }
+        ];
+
+        // Generate more images for infinite scroll demo
+        const generateMoreImages = () => {
+            const moreImages = [];
+            for (let i = 9; i <= 50; i++) {
+                moreImages.push({
+                    url: `https://picsum.photos/400/${300 + Math.floor(Math.random() * 300)}?random=${i}`,
+                    alt: `Generated image ${i}`,
+                    likes: Math.floor(Math.random() * 5000),
+                    views: Math.floor(Math.random() * 20000),
+                    shares: Math.floor(Math.random() * 500)
+                });
+            }
+            return moreImages;
+        };
+
+        const allImages = [...sampleImages, ...generateMoreImages()];
+
+        function App() {
+            const handleImageClick = (image, index) => {
+                console.log('Clicked image:', image, 'at index:', index);
+                alert(`Clicked: ${image.alt}`);
+            };
+
+            const handlePinImage = (image) => {
+                console.log('Pinned image:', image);
+                alert(`Pinned: ${image.alt}`);
+            };
+
+            const handleReachEnd = () => {
+                console.log('Reached end of gallery!');
+            };
+
+            return React.createElement(FeedScroll, {
+                images: allImages,
+                layout: 'masonry',
+                theme: 'glass',
+                showStats: true,
+                enablePin: true,
+                enableComments: true,
+                onImageClick: handleImageClick,
+                onPinImage: handlePinImage,
+                onReachEnd: handleReachEnd,
+                pageSize: 8,
+                autoLoad: true
+            });
+        }
+
+        ReactDOM.render(React.createElement(App), document.getElementById('root'));
+    </script>
+</body>
+</html> 
