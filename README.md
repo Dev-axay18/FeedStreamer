@@ -9,17 +9,33 @@ A production-ready, fully responsive, animated infinite scroll image feed compon
 
 ## ✨ Features
 
-- 🚀 **Infinite Scroll** - Automatically loads more images on scroll
-- 🎨 **Multiple Themes** - Light, Dark, Vintage, and Glass themes
-- 📱 **Responsive Layouts** - Grid, Masonry, and Full-width layouts
-- ⚡ **Lazy Loading** - Images load only when needed
-- 🎭 **Smooth Animations** - Powered by Framer Motion
-- 📊 **Stats Overlay** - Show likes, views, and shares on hover
-- 📌 **Pin to Board** - Save images to local storage
-- 🎬 **GIF Support** - Special effects for GIF images
-- ♿ **Accessible** - Full keyboard navigation and screen reader support
-- 🌙 **Dark Mode** - Auto-detect or prop-driven
-- 🎯 **TypeScript** - Full TypeScript support
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="200"><img src="https://img.icons8.com/emoji/48/rocket.png" width="30"/><br><b>Infinite Scroll</b><br><sub>🚀 Auto-load images on scroll</sub></td>
+    <td align="center" width="200"><img src="https://img.icons8.com/color/48/color-palette.png" width="30"/><br><b>Multiple Themes</b><br><sub>🎨 Light, Dark, Vintage, Glass</sub></td>
+    <td align="center" width="200"><img src="https://img.icons8.com/fluency/48/responsive.png" width="30"/><br><b>Responsive Layouts</b><br><sub>📱 Grid, Masonry, Full-width</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.icons8.com/fluency/48/flash-on.png" width="30"/><br><b>Lazy Loading</b><br><sub>⚡ Load only when needed</sub></td>
+    <td align="center"><img src="https://img.icons8.com/fluency/48/transition.png" width="30"/><br><b>Smooth Animations</b><br><sub>🎭 Powered by Framer Motion</sub></td>
+    <td align="center"><img src="https://img.icons8.com/color/48/combo-chart.png" width="30"/><br><b>Stats Overlay</b><br><sub>📊 Likes, views & shares on hover</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-pin-ui-essential-elements-flatart-icons-outline-flatarticons.png" width="30"/><br><b>Pin to Board</b><br><sub>📌 Local save to storage</sub></td>
+    <td align="center"><img src="https://img.icons8.com/emoji/48/frame-with-picture.png" width="30"/><br><b>GIF Support</b><br><sub>🎬 Cool effects on GIFs</sub></td>
+    <td align="center"><img src="https://img.icons8.com/color/48/accessible.png" width="30"/><br><b>Accessibility</b><br><sub>♿ Keyboard & screen reader</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.icons8.com/color/48/bright-moon.png" width="30"/><br><b>Dark Mode</b><br><sub>🌙 Auto or prop-driven</sub></td>
+    <td align="center"><img src="https://img.icons8.com/color/48/typescript.png" width="30"/><br><b>TypeScript</b><br><sub>🎯 Full TS support</sub></td>
+    <td align="center"><img src="https://img.icons8.com/color/48/fireworks.png" width="30"/><br><b>And More!</b><br><sub>💥 Futuristic experiences</sub></td>
+  </tr>
+</table>
+
+</div>
+
 
 ## 📦 Installation
 
