@@ -1,4 +1,4 @@
-# 🖼️ React Infinite Feed Gallery
+# React Infinite Feed Gallery
 
 [![npm version](https://badge.fury.io/js/react-infinite-feed-gallery.svg)](https://badge.fury.io/js/react-infinite-feed-gallery)
 [![npm downloads](https://img.shields.io/npm/dm/react-infinite-feed-gallery.svg)](https://www.npmjs.com/package/react-infinite-feed-gallery)
@@ -302,15 +302,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- 📧 Email: support@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/react-infinite-feed-gallery/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/react-infinite-feed-gallery/discussions)
-
-## 🙏 Acknowledgments
-
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [Unsplash](https://unsplash.com/) for demo images
+- 📧 Email: kaleakshay8856@gmail.com
 
 ## 📈 Roadmap
 
@@ -324,4 +316,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with ❤️ by [Your Name] 
+Made with ❤️ by Dev-axay18
