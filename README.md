@@ -1,11 +1,28 @@
-# React Infinite Feed Gallery
+<h1 align="center">
+  🌌 React Infinite Feed Gallery
+</h1>
 
-[![npm version](https://badge.fury.io/js/react-infinite-feed-gallery.svg)](https://badge.fury.io/js/react-infinite-feed-gallery)
-[![npm downloads](https://img.shields.io/npm/dm/react-infinite-feed-gallery.svg)](https://www.npmjs.com/package/react-infinite-feed-gallery)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+<p align="center">
+  <img src="https://badge.fury.io/js/react-infinite-feed-gallery.svg" />
+  <img src="https://img.shields.io/npm/dm/react-infinite-feed-gallery.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" />
+</p>
 
-A production-ready, fully responsive, animated infinite scroll image feed component for React with beautiful animations, multiple themes, and advanced features.
+<p align="center">
+<img src="https://raw.githubusercontent.com/animated-icons/animated-icons/main/icons/scroll-down/scroll-down.svg" width="40" alt="scroll icon" />
+
+</p>
+
+---
+
+<p align="center">
+🚀 <b>Responsive, Animated, Aesthetic Infinite Image Feed for React</b><br/>
+✨ Smooth scroll · 🎨 Multiple Themes · 💡 Customizable · ⚡ Production Ready
+</p>
+
+---
+
 
 ## ✨ Features
 
@@ -158,28 +175,120 @@ const DarkGallery = () => {
   );
 };
 ```
+----
 
-## 📚 API Reference
+<h2 align="center">
+  📚 <span style="font-weight:bold; font-size:1.6rem;">FeedScroll API Reference</span>
+</h2>
 
-### FeedScroll Props
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=6D28D9&width=435&lines=Unleash+the+FeedScroll+Power!;Fully+Customizable+Props;Performance+meets+Aesthetics+✨" alt="Typing SVG" />
+</div>
 
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `images` | `ImageItem[]` | **Required** | Array of image objects |
-| `layout` | `'grid' \| 'masonry' \| 'fullwidth'` | `'grid'` | Layout type |
-| `theme` | `'light' \| 'dark' \| 'vintage' \| 'glass'` | `'light'` | Theme style |
-| `loading` | `boolean` | `false` | Show loading state |
-| `className` | `string` | `''` | Additional CSS classes |
-| `threshold` | `number` | `0.1` | Intersection observer threshold |
-| `pageSize` | `number` | `12` | Images per page |
-| `autoLoad` | `boolean` | `true` | Auto-load on scroll |
-| `showStats` | `boolean` | `true` | Show stats overlay |
-| `enablePin` | `boolean` | `true` | Enable pin functionality |
-| `enableComments` | `boolean` | `false` | Enable comments feature |
-| `onReachEnd` | `() => void` | - | Callback when end reached |
-| `onImageClick` | `(image, index) => void` | - | Image click handler |
-| `onPinImage` | `(image) => void` | - | Pin image handler |
-| `onLikeImage` | `(image, index) => void` | - | Like image handler |
+<table align="center">
+  <thead>
+    <tr>
+      <th>🧩 Prop</th>
+      <th>🔠 Type</th>
+      <th>🧷 Default</th>
+      <th>📖 Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>images</code></td>
+      <td><code>ImageItem[]</code></td>
+      <td><b>Required</b></td>
+      <td>Array of image objects</td>
+    </tr>
+    <tr>
+      <td><code>layout</code></td>
+      <td><code>'grid' | 'masonry' | 'fullwidth'</code></td>
+      <td><code>'grid'</code></td>
+      <td>Layout type for gallery</td>
+    </tr>
+    <tr>
+      <td><code>theme</code></td>
+      <td><code>'light' | 'dark' | 'vintage' | 'glass'</code></td>
+      <td><code>'light'</code></td>
+      <td>Visual theme of the feed</td>
+    </tr>
+    <tr>
+      <td><code>loading</code></td>
+      <td><code>boolean</code></td>
+      <td><code>false</code></td>
+      <td>Show loading state</td>
+    </tr>
+    <tr>
+      <td><code>className</code></td>
+      <td><code>string</code></td>
+      <td><code>''</code></td>
+      <td>Custom CSS classes</td>
+    </tr>
+    <tr>
+      <td><code>threshold</code></td>
+      <td><code>number</code></td>
+      <td><code>0.1</code></td>
+      <td>Intersection observer threshold</td>
+    </tr>
+    <tr>
+      <td><code>pageSize</code></td>
+      <td><code>number</code></td>
+      <td><code>12</code></td>
+      <td>Images per page</td>
+    </tr>
+    <tr>
+      <td><code>autoLoad</code></td>
+      <td><code>boolean</code></td>
+      <td><code>true</code></td>
+      <td>Auto-load images on scroll</td>
+    </tr>
+    <tr>
+      <td><code>showStats</code></td>
+      <td><code>boolean</code></td>
+      <td><code>true</code></td>
+      <td>Show image stats overlay</td>
+    </tr>
+    <tr>
+      <td><code>enablePin</code></td>
+      <td><code>boolean</code></td>
+      <td><code>true</code></td>
+      <td>Enable pin/save feature</td>
+    </tr>
+    <tr>
+      <td><code>enableComments</code></td>
+      <td><code>boolean</code></td>
+      <td><code>false</code></td>
+      <td>Enable comments below images</td>
+    </tr>
+    <tr>
+      <td><code>onReachEnd</code></td>
+      <td><code>() => void</code></td>
+      <td>–</td>
+      <td>Callback when feed ends</td>
+    </tr>
+    <tr>
+      <td><code>onImageClick</code></td>
+      <td><code>(image, index) => void</code></td>
+      <td>–</td>
+      <td>Callback on image click</td>
+    </tr>
+    <tr>
+      <td><code>onPinImage</code></td>
+      <td><code>(image) => void</code></td>
+      <td>–</td>
+      <td>Handler when pin is clicked</td>
+    </tr>
+    <tr>
+      <td><code>onLikeImage</code></td>
+      <td><code>(image, index) => void</code></td>
+      <td>–</td>
+      <td>Handler when like is clicked</td>
+    </tr>
+  </tbody>
+</table>
+
+----
 
 ### ImageItem Interface
 
@@ -196,30 +305,40 @@ interface ImageItem {
 }
 ```
 
-## 🎨 Themes
+## 🌈 Themes & Layouts
 
-### Light Theme
-Clean, modern design with subtle shadows and borders.
+<div align="center" style="margin-top: 2rem;">
+  <img src="https://raw.githubusercontent.com/animated-icons/animated-icons/main/icons/brush/brush.svg" width="60" alt="Design Icon" />
+</div>
 
-### Dark Theme
-Dark background with light text and glowing effects.
+---
 
-### Vintage Theme
-Warm, nostalgic colors with vintage-inspired styling.
+### 🎨 Theme Showcase
 
-### Glass Theme
-Frosted glass effect with backdrop blur and transparency.
+| Theme         | Preview                                                                                           | Description                                                    |
+|---------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| **Light**     | ![Light Theme](https://img.icons8.com/color/96/sun--v1.png)                                       | Clean, modern look with subtle shadows and smooth edges.       |
+| **Dark**      | ![Dark Theme](https://img.icons8.com/color/96/moon-symbol.png)                                    | Elegant and bold with glowing text on a dark canvas.           |
+| **Vintage**   | ![Vintage Theme](https://img.icons8.com/color/96/old-time-camera.png)                             | Warm, nostalgic tones with retro-styled elements.              |
+| **Glass**     | ![Glass Theme](https://img.icons8.com/color/96/wine-glass.png)                                    | Frosted glass UI with backdrop blur and layered transparency.  |
 
-## 📱 Layouts
+---
 
-### Grid Layout
-Responsive grid with 1-4 columns based on screen size.
+### 📐 Layout Options
 
-### Masonry Layout
-Pinterest-style masonry layout with varying heights.
+| Layout Type     | Preview                                                                                      | Description                                                  |
+|------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **Grid**         |           ![Grid Layout](https://www.svgviewer.dev/s/9DWblFHj)        | Responsive columns (1–4) adapting to device width.           |
+| **Masonry**      | ![Masonry Layout](https://img.icons8.com/ios-filled/50/stack-of-photos.png)                  | Pinterest-style freeform layout with dynamic heights.        |
+| **Fullwidth**    | ![Fullwidth Layout](https://img.icons8.com/ios-filled/50/align-justify.png)                  | Focused, single-column layout for full visual impact.        |
 
-### Full-width Layout
-Single column layout for maximum image impact.
+---
+
+<div align="center" style="margin-top: 2rem;">
+  <img src="https://raw.githubusercontent.com/animated-icons/animated-icons/main/icons/scroll-down/scroll-down.svg" width="60" alt="Scroll down" />
+  <p><em>Explore and switch themes live in your app effortlessly.</em></p>
+</div>
+
 
 ## 🔧 Customization
 
