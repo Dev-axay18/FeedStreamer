@@ -303,9 +303,14 @@ interface ImageItem {
 
 ## 🌈 Themes & Layouts
 
-<div align="center" style="margin-top: 2rem;">
-  <img src="https://raw.githubusercontent.com/animated-icons/animated-icons/main/icons/brush/brush.svg" width="60" alt="Design Icon" />
-</div>
+<p align="center">
+  <img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/folder.gif?raw=true" width="100" style="border-radius: 8px;" />
+  <img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/music.gif?raw=true" width="100" style="border-radius: 8px;" />
+  <img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/pallete.gif?raw=true" width="100" style="border-radius: 8px;" />
+  <img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/party.gif?raw=true" width="100" style="border-radius: 8px;" />
+</p>
+
+
 
 ---
 
