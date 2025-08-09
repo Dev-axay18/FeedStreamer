@@ -53,6 +53,23 @@
 
 </div>
 
+### 🙌 Special Thanks
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/darshitachaurasia">
+        <img src="https://i.pinimg.com/736x/68/de/16/68de16c5f54dd9b4ff354af4acf39a42.jpg" width="200" style="border-radius: 50%;" alt="johndoe" />
+        <br />
+        <br/>
+        <strong>@darshitachaurasia</strong>
+      </a>
+       <p>✨💡🌸</p>
+      <br />
+      🛠️ Helped fix build errors and improved test workflow.
+    </td>
+  </tr>
+</table>
 
 ## 📦 Installation
 
@@ -329,14 +346,15 @@ interface ImageItem {
 
 | Layout Type     | Preview                                                                                      | Description                                                  |
 |------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| **Grid**         |           ![Grid Layout](https://www.svgviewer.dev/s/9DWblFHj)        | Responsive columns (1–4) adapting to device width.           |
-| **Masonry**      | ![Masonry Layout](https://img.icons8.com/ios-filled/50/stack-of-photos.png)                  | Pinterest-style freeform layout with dynamic heights.        |
-| **Fullwidth**    | ![Fullwidth Layout](https://img.icons8.com/ios-filled/50/align-justify.png)                  | Focused, single-column layout for full visual impact.        |
+| **Grid**         | <img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/grid.png?raw=true" width="60" />        | Responsive columns (1–4) adapting to device width.           |
+| **Masonry**      | <img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/grid%20(1).png?raw=true" width="60" />  | Pinterest-style freeform layout with dynamic heights.        |
+| **Fullwidth**    | <img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/width.png?raw=true" width="60" />       | Focused, single-column layout for full visual impact.        |
+
 
 ---
 
 <div align="center" style="margin-top: 2rem;">
-  <img src="https://raw.githubusercontent.com/animated-icons/animated-icons/main/icons/scroll-down/scroll-down.svg" width="60" alt="Scroll down" />
+  <img src="https://media.tenor.com/cTuOMXdthtIAAAAM/agoney-scroll-down.gif" width="190" alt="Scroll down" />
   <p><em>Explore and switch themes live in your app effortlessly.</em></p>
 </div>
 
@@ -406,35 +424,67 @@ Enable trending comments on hover:
 ```
 
 ## 🧪 Development
-
+### Install dependencies
 ```bash
-# Install dependencies
 npm install
+```
 
-# Start development server
+### Start development server
+```bash
 npm run dev
-
-# Build for production
+```
+### Build for production
+```bash
 npm run build
-
-# Type checking
+```
+### Type checking
+```bash
 npm run type-check
-
-# Linting
+```
+### Linting
+```bash
 npm run lint
 ```
 
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) file for details.
+---
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+### We welcome contributions from the community! If you have ideas, improvements, or bug fixes, follow the steps below to make your contribution count 🚀
+
+### 🛠️ Steps to Contribute
+
+1. 🍴 **Fork** the repository  
+2. 🌿 **Create a branch** for your feature or fix  
+   ```bash
+   git checkout -b feature/your-amazing-feature
+   ```
+3. 💾 **Commit your changes** with a clear message
+
+   ```bash
+   git commit -m "✨ Add your amazing feature"
+   ```
+4. 🚀 **Push to your forked repo**
+
+   ```bash
+   git push origin feature/your-amazing-feature
+   ```
+5. 📬 **Open a Pull Request** and describe what you’ve done
+
+---
+
+### 💡 Tips for a Great PR
+
+* Write clear, concise commit messages
+* Keep your changes focused on one feature/fix
+* Follow existing code style and naming conventions
+* If applicable, update documentation and tests
+
+🙌 Thank you for making this project better!
+---
 
 ## 📞 Support
 
@@ -442,13 +492,13 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📈 Roadmap
 
-- [ ] Virtual scrolling for large datasets
-- [ ] Image zoom on click
-- [ ] Social sharing integration
-- [ ] Advanced filtering options
-- [ ] Custom animation presets
-- [ ] Server-side rendering support
-- [ ] Progressive Web App features
+- [x] Virtual scrolling for large datasets
+- [x] Image zoom on click
+- [x] Social sharing integration
+- [x] Advanced filtering options
+- [x] Custom animation presets
+- [x] Server-side rendering support
+- [x] Progressive Web App features
 
 ---
 
