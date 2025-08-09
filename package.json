@@ -17,16 +17,16 @@
     "dist",
     "README.md"
   ],
-  "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "clean": "rimraf dist",
-    "prebuild": "npm run clean",
-    "type-check": "tsc --noEmit",
-    "lint": "eslint src --ext .ts,.tsx",
-    "prepublishOnly": "npm run build"
-    "test": "jest"
-  },
+ "scripts": {
+  "build": "rollup -c",
+  "dev": "rollup -c -w",
+  "clean": "rimraf dist",
+  "prebuild": "npm run clean",
+  "type-check": "tsc --noEmit",
+  "lint": "eslint src --ext .ts,.tsx",
+  "prepublishOnly": "npm run build",
+  "test": "jest"
+}
   "keywords": [
     "react",
     "infinite-scroll",
