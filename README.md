@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/animated-icons/animated-icons/main/icons/scroll-down/scroll-down.svg" width="40" alt="scroll icon" />
+<img src="https://github.com/Dev-axay18/FeedStreamer/blob/main/Assets/react.js.png?raw=true" width="100%" alt="scroll icon" />
 
 </p>
 
@@ -180,10 +180,6 @@ const DarkGallery = () => {
 <h2 align="center">
   📚 <span style="font-weight:bold; font-size:1.6rem;">FeedScroll API Reference</span>
 </h2>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=6D28D9&width=435&lines=Unleash+the+FeedScroll+Power!;Fully+Customizable+Props;Performance+meets+Aesthetics+✨" alt="Typing SVG" />
-</div>
 
 <table align="center">
   <thead>
