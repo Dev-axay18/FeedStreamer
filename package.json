@@ -28,7 +28,8 @@
   "test": "jest"
 },
 "jest": {
-  "testMatch": ["**/tests/**/*.[jt]s?(x)"]
+ "**/__tests__/**/*.[jt]s?(x)",
+    "**/tests/**/*.[jt]s?(x)"
 },
   "keywords": [
     "react",
