@@ -29,7 +29,7 @@
 },
 "jest": {
  "**/__tests__/**/*.[jt]s?(x)",
-    "**/tests/**/*.[jt]s?(x)"
+    "**/tests/**/*.[jt]s?(x)",
 },
   "keywords": [
     "react",
