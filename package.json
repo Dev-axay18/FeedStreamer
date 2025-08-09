@@ -1,4 +1,4 @@
-{
+  {
   "name": "@Dev-axay18/react-infinite-feed-gallery",
   "version": "1.0.2",
   "description": "A production-ready, fully responsive, animated infinite scroll image feed component for React",
@@ -51,6 +51,10 @@
     "type": "git",
     "url": "https://github.com/Dev-axay18/react-infinite-feed-gallery.git"
   },
+    "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+}
+
   "bugs": {
     "url": "https://github.com/Dev-axay18/react-infinite-feed-gallery/issues"
   },
