@@ -53,7 +53,7 @@
   },
     "publishConfig": {
   "registry": "https://npm.pkg.github.com"
-}
+},
 
   "bugs": {
     "url": "https://github.com/Dev-axay18/react-infinite-feed-gallery/issues"
