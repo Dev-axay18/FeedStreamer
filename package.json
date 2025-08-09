@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-feed-gallery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A production-ready, fully responsive, animated infinite scroll image feed component for React",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -89,4 +89,3 @@
     "clsx": "^2.0.0"
   }
 }
-
