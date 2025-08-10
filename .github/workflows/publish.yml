@@ -14,15 +14,13 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up Node.js
+    - name: Set up Node.js and authenticate to GitHub Packages
       uses: actions/setup-node@v3
       with:
         node-version: '18'
-
-    - name: Authenticate to GitHub Packages
-      run: |
-        echo "@dev-axay18:registry=https://npm.pkg.github.com/" > .npmrc
-        echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGES_TOKEN }}" >> .npmrc
+        registry-url: 'https://npm.pkg.github.com'
+        scope: '@dev-axay18'
+        always-auth: true
 
     - name: Install dependencies
       run: npm install
