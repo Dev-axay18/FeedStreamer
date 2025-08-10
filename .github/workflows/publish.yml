@@ -3,37 +3,33 @@ name: Publish Package
 on:
   push:
     branches:
-      - main   # Change if you want to publish from another branch
-  # You can also add `tags` if you want to publish on version tags:
-  # tags:
-  #   - 'v*'
+      - main
+    tags:
+      - 'v*.*.*'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read    # to fetch repo contents
-      packages: write   # permission to publish packages
-      id-token: write   # required for OIDC authentication
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18  # or your preferred Node version
-          registry-url: https://npm.pkg.github.com
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        registry-url: 'https://npm.pkg.github.com'
 
-      - name: Install dependencies
-        run: npm install
+    - name: Authenticate to GitHub Packages
+      run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
 
-      - name: Build package
-        run: npm run build
+    - name: Install dependencies
+      run: npm install
 
-      - name: Publish to GitHub Packages
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Build
+      run: npm run build
+
+    - name: Publish package
+      run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
